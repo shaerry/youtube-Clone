@@ -4,7 +4,7 @@ export default function Navbar() {
   return (
     <>
     
-    <header className='flex justify-between items-center p-8 h-3.5 sticky bg-black'>
+    <header className=' flex justify-between items-center p-8 h-3.5 sticky bg-black'>
         <nav>
           <div className="lines h-0.5 w-6 m-1 bg-white"/>
           <div className="lines h-0.5 w-6 m-1 bg-white"/>
@@ -42,7 +42,6 @@ export default function Navbar() {
 </svg>
 <div className="avatar ">
 <img class=" space-x-6 flex h-8 w-8 rounded-full" src="https://images.unsplash.com/photo-1568602471122-7832951cc4c5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=facearea&facepad=2&w=300&h=300&q=80" alt="Image Description"/>
-
 
             </div>       
         </div>
