@@ -4,14 +4,18 @@ export default function Navbar() {
   return (
     <>
     
-    <header className=' flex justify-between items-center p-8 h-3.5 sticky bg-black'>
-        <nav>
+    <header className=' z-10 flex justify-between items-center p-8 h-3.5 sticky top-0 bg-black'>
+        <nav className='flex space-x-3 items-center'>
+            <div>  
           <div className="lines h-0.5 w-6 m-1 bg-white"/>
           <div className="lines h-0.5 w-6 m-1 bg-white"/>
           <div className="lines h-0.5 w-6 m-1 bg-white "/>
+          </div>
+          <div className='items-center bg-inherit'>                    
+          <img className='w-20  bg-inherit' src="images.png" alt="" />
+          </div>
         </nav>  
-        <div className='flex space-x-4 items-center'>
-        
+        <div className='flex space-x-4 items-center'>    
 <form>   
     <label for="default-search" class="mb-2 text-sm font-medium text-gray-900 sr-only dark:text-white">Search</label>
     <div class="relative">
